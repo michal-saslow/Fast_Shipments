@@ -1,0 +1,40 @@
+<h1 class="centered-text">   sign in delivery 🛵</h1>
+<div class="container">
+    <div class="d">
+    <div class="row mr-5">
+        <div class="col">
+            <p-inputGroup>
+                <p-inputGroupAddon>
+                    <i class="pi pi-user"></i>
+                </p-inputGroupAddon>
+                <input pInputText placeholder="Username" [(ngModel)]="name" />
+            </p-inputGroup>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mt-4 mb-5">
+            <p-inputGroup>
+                <p-inputGroupAddon>
+                    <i class="pi pi-hashtag"></i>
+                </p-inputGroupAddon>
+                <input pInputText placeholder="Id delivery" [(ngModel)]="id" />
+            </p-inputGroup>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 "></div>
+        <div class="col login">
+            <p-button label="Login" icon="pi pi-user" styleClass="w-10rem mx-auto" (onClick)="login()"></p-button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="background-image">
+    
+</div>
+<p-dialog header="Change the destination address" [(visible)]="visibleOpen" [breakpoints]="{ '960px': '75vw' }"
+    [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+    <div class="flex flex-column gap-2">
+        <p>error</p>
+    </div>
+</p-dialog>

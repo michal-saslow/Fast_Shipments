@@ -1,0 +1,29 @@
+.signIn{
+    margin-left: 300px;
+}
+.signUp{
+    margin-top: 50px;
+}
+.login{
+    text-align: center;
+}
+.con{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+h1 {
+    color: rgb(3, 123, 159);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+.background-image {
+    background-image: url("C:\Users\מיכל\Documents\תכנות שנה ב\angular\FastProject\אופנוע.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 40vh;
+    width: 40vw; /* כדי שהרקע ימלא את כל הגובה של העמוד */
+  }

@@ -1,0 +1,46 @@
+h1 {
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+h2 {
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+button {
+    display: inline-block; /* הצגת הכפתורים בשורה אחת */
+    background-color: rgb(157, 201, 244);
+    color: white;
+    border: none;
+    padding: 20px 40px; /* גודל הכפתור */
+    margin-left: 100px;
+    margin-right: 100px; /* רווחים בין הכפתורים */
+    font-size: 21px; /* גודל הגופן */
+    border-radius: 20px; /* ריסוס הכפתור */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+.centered-text {
+    text-align: center;
+}
+.background-image {
+    background-image: url("C:\Users\מיכל\Documents\תכנות שנה ב\angular\FastProject\אופנוע.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 40vh;
+    width: 40vw; /* כדי שהרקע ימלא את כל הגובה של העמוד */
+  }

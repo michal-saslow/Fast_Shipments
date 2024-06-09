@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+      margin-right: 100px;
+}
+h1 {
+    color: rgb(3, 123, 159);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+.background-image {
+    background-image: url("C:\Users\מיכל\Documents\תכנות שנה ב\angular\FastProject\אופנוע.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 35vh;
+    width: 40vw; /* כדי שהרקע ימלא את כל הגובה של העמוד */
+  }
+
+
+

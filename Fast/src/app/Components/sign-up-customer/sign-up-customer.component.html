@@ -1,0 +1,30 @@
+<h1 class="centered-text">   sign up  client 😛</h1>
+<div class="card divOut">
+    <div>
+        <p-inputGroup class="divIn">
+            <p-inputGroupAddon>
+                <i class="pi pi-user"></i>
+            </p-inputGroupAddon>
+            <input pInputText placeholder="name" [(ngModel)]="customer.name"/>
+        </p-inputGroup>
+        <br/>
+        <div class="divIn">
+        <p-inputGroup >
+            <p-inputGroupAddon>
+                <i class="pi pi-hashtag"></i>
+            </p-inputGroupAddon>
+            <input pInputText placeholder="Identity" [(ngModel)]="customer.tz" />
+        </p-inputGroup></div>
+        <br/>
+        <p-inputGroup class="divIn">
+            <p-inputGroupAddon>
+                <i class="pi pi-phone"></i>
+            </p-inputGroupAddon>
+            <input pInputText placeholder="phone" [(ngModel)]="customer.Phone"/>
+        </p-inputGroup>
+       <button (click)="addCustomer()">signUp 📩</button>
+        </div>
+    </div>
+    <div class="background-image">
+    
+    </div>   
