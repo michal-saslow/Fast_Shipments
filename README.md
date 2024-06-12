@@ -39,4 +39,4 @@ The application is understood to be used by the delivery people as well as used 
 For a new order, a suitable delivery is automatically determined according to the geographical location
 
 #### Option to change name of delivery/ customer
-![App Screenshot](https://github.com/michal-saslow/Fast_Shipments/blob/main/Screenshots/order-user.png)
+![App Screenshot](https://github.com/michal-saslow/Fast_Shipments/blob/main/Screenshots/change-name.png)
