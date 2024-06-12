@@ -9,3 +9,14 @@ The way the system components communicate with each other:
 - Database implemented in SQL server.
 
   
+## The application is used to order delivery people.
+
+The application is understood to be used by the delivery people as well as used by the user.
+### The delivery people useing: 
+- Accepting all orders for the current day,
+- The salary he will earn for that day
+### Customer useing:
+- Gets the history of all his orders and whether they have already been done or not,Can only change orders that have not yet been placed.
+- Can add a new order.
+
+  For a new order, a suitable delivery is automatically determined according to the geographical location
